@@ -20,7 +20,7 @@
     <!--HEADER START-->
     <header>
         <!--Clickable title that takes you to the index page-->
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>Casey</h1>
             <h2>Front End Web Developer</h2>
         </a>
@@ -30,16 +30,16 @@
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="selected">Contact</a></li>
             </ul>
         </nav>
         <!--Navigation Finish-->
     </header>
     <!--HEADER FINISH-->
 
-    <div id="">
+    <div id="wrapper">
         <!--Start of first column-->
-        <div>
+        <div id="primary">
             <!--Title-->
             <h3>General Information</h3>
             <!--General Information-->
@@ -48,14 +48,14 @@
         <!--End of first column-->
 
         <!--Start of second column-->
-        <div>
+        <div id="secondary">
             <!--Title-->
             <h3>Contact Information</h3>
             <!--Contact Information-->
-            <ul>
-                <li><a href="tel:5026313269">(502) 631-3269</a></li>
-                <li><a href="mailto:test@test.test">username@email.com</a></li>
-                <li><a href="https://twitter.com" target="_blank">@username</a></li>
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:5026313269">(502) 631-3269</a></li>
+                <li class="email"><a href="mailto:test@test.test">username@email.com</a></li>
+                <li class="twitter"><a href="https://twitter.com" target="_blank">@username</a></li>
             </ul>
         </div>
         <!--End of second column-->
@@ -64,10 +64,10 @@
     <!--FOOTER START-->
     <footer>
         <!--Twitter link that's clickable-->
-        <a href="https://twitter.com"><img src="img/twitter-wrap.png"></a>
+        <a href="https://twitter.com"><img src="img/twitter-wrap.png" class="social-icon"></a>
 
         <!--Facebook link that's clickable-->
-        <a href="https://facebook.com"><img src="img/facebook-wrap.png"></a>
+        <a href="https://facebook.com"><img src="img/facebook-wrap.png" class="social-icon"></a>
 
         <!--Copyright Information-->
         <p>&copy; 2022 Casey</p>
